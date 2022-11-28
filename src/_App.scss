@@ -14,4 +14,8 @@
 
 main {
   height: calc(100% - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }

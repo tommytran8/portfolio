@@ -8,6 +8,7 @@ import "./styles/index.scss";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Experience from "./components/Experience/Experience";
+import Resume from "./components/Resume/Resume";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "experience",
         element: <Experience />,
+      },
+      {
+        path: "resume",
+        element: <Resume />,
       },
     ],
   },

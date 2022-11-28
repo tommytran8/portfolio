@@ -71,6 +71,12 @@ const NavBar = () => {
             to={"experience"}
             aria-label="experience tab"
           />
+          <StyledTab
+            label="RESUME"
+            component={Link}
+            to={"resume"}
+            aria-label="resume tab"
+          />
         </StyledTabs>
         {/* <Box sx={{ p: 1 }} /> */}
       </Box>
