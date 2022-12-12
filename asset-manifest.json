@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.89eb2b03.css",
-    "main.js": "/portfolio/static/js/main.1e1fc46c.js",
+    "main.js": "/portfolio/static/js/main.fe604bca.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/dizzy-programmer-working-with-code-on-a-laptop.gif": "/portfolio/static/media/dizzy-programmer-working-with-code-on-a-laptop.71cc39f62cc7d11aace8.gif",
     "static/media/juicy-man-programmer-writing-code-and-make-web-design-on-a-pc.gif": "/portfolio/static/media/juicy-man-programmer-writing-code-and-make-web-design-on-a-pc.3199706307423b9609e2.gif",
@@ -9,11 +9,11 @@
     "static/media/Antra-Resume.pdf": "/portfolio/static/media/Antra-Resume.6e150b1e2c2854e5abfa.pdf",
     "index.html": "/portfolio/index.html",
     "main.89eb2b03.css.map": "/portfolio/static/css/main.89eb2b03.css.map",
-    "main.1e1fc46c.js.map": "/portfolio/static/js/main.1e1fc46c.js.map",
+    "main.fe604bca.js.map": "/portfolio/static/js/main.fe604bca.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89eb2b03.css",
-    "static/js/main.1e1fc46c.js"
+    "static/js/main.fe604bca.js"
   ]
 }
