@@ -1,6 +1,7 @@
 import { styled, Tab, Tabs, Box } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
+import usePathname from "../../hooks/usePathname";
 
 const StyledTabs = styled((props) => (
   <Tabs
@@ -38,7 +39,15 @@ const StyledTab = styled((props) => <Tab disableRipple {...props} />)(
 );
 
 const NavBar = () => {
-  const [value, setValue] = React.useState(0);
+  const pathname = usePathname();
+  const initialTab = pathname.includes("about")
+    ? 1
+    : pathname.includes("experience")
+    ? 2
+    : pathname.includes("resume")
+    ? 3
+    : 0;
+  const [value, setValue] = React.useState(initialTab);
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };

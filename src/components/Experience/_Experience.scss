@@ -4,9 +4,31 @@
   display: flex;
   justify-content: center;
   padding-top: 20px;
-  overflow: auto;
+  overflow: hidden;
+  position: relative;
+  top: 200px;
+  animation-name: fadeIn;
+  animation-duration: 1.2s;
+  animation-fill-mode: forwards;
   ul {
+    background-color: #343a40;
+    padding: 15px;
+    padding-right: 25px;
+    border-radius: 10px;
     width: 80%;
+    overflow: auto;
+    height: auto;
     list-style: none;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    top: 200px;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
   }
 }

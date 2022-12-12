@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./styles/index.scss";
 
 import Home from "./components/Home/Home";
@@ -10,7 +10,7 @@ import About from "./components/About/About";
 import Experience from "./components/Experience/Experience";
 import Resume from "./components/Resume/Resume";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App />,
