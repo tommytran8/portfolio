@@ -9,6 +9,7 @@ const Home = () => {
       <p>
         I am a{" "}
         <span>
+          {"testing"}
           {dynamicIntro}
           <span
             className={`typecursor ${
